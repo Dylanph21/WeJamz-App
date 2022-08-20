@@ -1,0 +1,270 @@
+/*----------------------------------------  MAIN  -------------------------------------------------*/
+
+/* .versionControl {
+  border-style: solid;
+  border-color: black;
+  background-color:  rgb(46, 46, 46);
+  height: 40em;
+  width: 75%;
+  display: flex;
+  border-radius: 5px;
+} */
+
+.vCModalBackground {
+  padding: 0;
+  width: 98vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index:10000;
+}
+
+.vCModalContainer {
+  width: auto;
+  height: auto;
+  background-color: rgb(46, 46, 46);
+  box-shadow: 0px 30px 50px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 10000;
+}
+
+.vItemTopRow {
+  display: flex;
+  justify-content: space-between;
+  text-align: absolute;
+}
+
+.vItemBottomRow {
+  display: flex;
+  justify-content: space-between;
+  text-align: absolute;
+}
+
+/*------------------------------------------  VERSION LIST  ------------------------------------------*/
+
+.versionCList {
+  padding: 0px;
+  height: auto;
+  z-index: 10000;
+}
+
+.versionCItem {
+  min-width: 45em;
+  height: auto;
+  padding: 5px;
+  background-color: rgb(91, 91, 91);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+
+/*------------------------------------------  UPLOAD MODALS -----------------------------------------*/
+
+
+.uploadModalBackground {
+  padding: 0;
+  width: 98vw;
+  height: 60vh;
+  background-color: rgba(0,0,0,0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index:10001;
+}
+
+.uploadModalContainer {
+  width: auto;
+  height: auto;
+  background-color: rgb(46, 46, 46);
+  box-shadow: 0px 30px 50px black;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 1003;
+  z-index:10001;
+}
+
+.modalTopRow {
+  display: flex;
+  justify-content: space-between;
+  text-align: absolute;
+}
+
+.forms {
+  width: 45em;
+  margin-top: 10px;
+  height: 20px;
+  background-color: rgb(177, 177, 177);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+
+/*-------------------------------------------  BUTTONS  ---------------------------------------------*/
+.uploadButton {
+  background-color: rgb(46, 46, 46);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-width: 0;
+  border-radius: 8px;
+  font-size: 10pt;
+  color: rgb(89, 0, 255);
+  font-weight: bold;
+  margin-top: 10px;
+  display: flex;
+}
+
+.uploadButton:hover {
+  color: rgb(190, 147, 255);
+  transition-duration: .5s;
+}
+
+
+.downloadButton {
+  background-color: rgb(91, 91, 91);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-width: 0;
+  border-radius: 8px;
+  font-size: 10pt;
+  color: rgb(147, 88, 255);
+  font-weight: bold;
+  margin-top: 10px;
+  display: flex;
+}
+
+.downloadButton:hover {
+  color: rgb(190, 147, 255);
+  transition-duration: .5s;
+}
+
+
+.modalSubmitButton {
+  background-color: rgb(46, 46, 46);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-width: 0;
+  border-radius: 8px;
+  font-size: 10pt;
+  color: rgb(89, 0, 255);
+  font-weight: bold;
+  margin-top: 10px;
+  display: flex;
+}
+
+.modalSubmitButton:hover {
+  color: rgb(190, 147, 255);
+  transition-duration: .5s;
+}
+
+.modalCloseButton {
+  background-color: rgb(46, 46, 46);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding: 2px;
+  height: 15px;
+  width: 15px;
+  border-width: 0;
+  border-radius: 5px;
+  font-size: 10pt;
+  color: rgb(89, 0, 255);
+}
+
+.modalCloseButton:hover {
+  color: rgb(190, 147, 255);
+  transition-duration: .5s;
+}
+
+.likes {
+  color: rgb(147, 88, 255);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  font-size: 10pt;
+  font-weight: bold;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+.likes:hover {
+  color: rgb(190, 147, 255);
+  transition-duration: .5s;
+}
+
+/*--------------------------------------------  TEXT  -----------------------------------------------*/
+
+.orangeText24 {
+  color: rgb(89, 0, 255);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  font-size: 24pt;
+  font-weight: bold;
+  padding-bottom: 0px;
+  display: flex;
+}
+
+.orangeText20 {
+  color: rgb(89, 0, 255);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  font-size: 24pt;
+  font-weight: bold;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.orangeText10 {
+  color: rgb(147, 88, 255);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  font-size: 12pt;
+  font-weight: bold;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.lineup {
+  display: flex;
+  text-align: absolute;
+}
+
+.basicGray {
+  color:rgb(183, 183, 183);
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+}
+
+audio {
+  background-color:rgb(195, 162, 255);
+  width: 100%;
+  border-radius: 10px;
+  height: 60px;
+  padding-bottom: 10px;
+
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: rgb(195, 162, 255);
+  border-radius: 15px;
+  opacity: 100%;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: rgb(221, 202, 255);
+}
+
